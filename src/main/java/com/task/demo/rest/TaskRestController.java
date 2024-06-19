@@ -20,13 +20,13 @@ public class TaskRestController {
        this.taskService = taskService;
     }
 
-    // expose "/employees" and return a list of employees
+    
     @GetMapping("/tasks")
     public List<Task> findAll() {
         return taskService.findAll();
     }
 
-    // add mapping for GET /employees/{employeeId}
+   
 
     @GetMapping("/tasks/{taskId}")
     public Task getEmployee(@PathVariable int taskId) {
@@ -40,7 +40,7 @@ public class TaskRestController {
         return task;
     }
 
-    // add mapping for POST /employees - add new employee
+   
 
     @PostMapping("/tasks")
     public Task addEmployee(@RequestBody Task task) {
@@ -53,7 +53,7 @@ public class TaskRestController {
         return dbTask;
     }
 
-    // add mapping for PUT /employees - update existing employee
+    
 
     @PutMapping("/tasks")
     public Task updateTask(@RequestBody Task task) {
