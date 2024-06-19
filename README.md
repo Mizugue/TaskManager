@@ -1,6 +1,6 @@
 # Task Manager
 - *I. Techonologies *
-  - Hibernate + Mysql (Spring DATA jpa)
+  - Hibernate + Mysql -> Spring DATA jpa
   - Spring boot
   - Thymeleaf
   ------------------
