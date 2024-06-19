@@ -1,0 +1,2 @@
+INSERT INTO task (title, description, expiration_date, image_url)
+VALUES ("Estudar física", "Preciso estudar física para a prova de amanhã", '2024-06-19', 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/o-que-fisica-565d9c383e603.jpg');

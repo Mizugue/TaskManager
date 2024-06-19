@@ -1,0 +1,48 @@
+    body, h1, h2, h3, h4, h5, h6 {
+      font-family: "Raleway", sans-serif;
+    }
+    .task-item {
+      width: 30%;
+      margin-right: 3%;
+      margin-bottom: 20px;
+      float: left;
+    }
+    .task-item:nth-child(3n+3) {
+      margin-right: 0;
+    }
+    .task-image {
+      max-width: 100%;
+      height: 200px;
+      display: block;
+      margin: 0 auto;
+      object-fit: cover;
+    }
+    .w3-sidebar img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 50%;
+    }
+    .task-container {
+      margin: 20px;
+    }
+    .task-details {
+      margin: 20px 0;
+    }
+    .task-title {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .task-description {
+      margin-bottom: 10px;
+    }
+    .task-dates {
+      margin-bottom: 10px;
+    }
+    .task-status {
+      font-weight: bold;
+    }
+    .main-content {
+      padding-bottom: 50px;
+    }
